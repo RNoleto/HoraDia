@@ -1,0 +1,34 @@
+body {
+  background: rgb(70, 142, 236);
+  font: normal 15pt Arial;
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  color: black;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+#foto,
+img {
+  margin: 0.5rem auto;
+  width: 25rem;
+  heigth: 25rem;
+  shade-outside: circle();
+  clip-path: circle();
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+}
